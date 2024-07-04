@@ -1,0 +1,328 @@
+/* base Rules */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6c757d;
+}
+
+/* Navigation */
+
+nav.r-nav {
+  background: transparent;
+  padding: 20px 0;
+  transition: 0.5s all;
+}
+
+nav .navbar-brand {
+  font-size: 30px;
+  color: #fff;
+}
+
+nav .navbar-nav li a {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+
+/* body {
+    background-color: #000;
+} */
+
+nav .navbar-nav li {
+  margin-left: 15px;
+}
+
+nav.r-nav.stickyadd {
+  background: #fff !important;
+  padding: 15px 0;
+  box-shadow: 0 1px 1px 1px #000;
+  transition: 0.5s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand {
+  color: #000;
+  font-size: 40px;
+  transition: 0.5s all;
+}
+
+nav.stickyadd .navbar-nav .nav-link {
+  color: #000 !important;
+}
+
+.navbar .hamburger {
+  color: #fff;
+}
+
+nav.stickyadd .hamburger {
+  color: #000;
+}
+
+/* Hero Section "Header" Starts */
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/zain-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-box {
+  max-width: 700px;
+  color: #fff;
+}
+
+.content-box h4 {
+  font-size: 30px;
+}
+
+.content-box h1 {
+  font-size: 52px;
+}
+
+.content-box a {
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 5px 25px;
+}
+
+.content-box a:hover {
+  color: #000;
+  background: #fff;
+  transition: 0.5s all;
+}
+
+.content-box p {
+  color: #fff;
+}
+
+/* About Section */
+
+.about li a {
+  color: #000;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  font-size: 20px;
+  border: 2px solid #d4d4d4;
+  border-radius: 50%;
+  line-height: 40px;
+  transition: 0.5s all;
+  text-align: center;
+}
+
+.about li a:hover {
+  color: #ee8683;
+}
+
+.r-p {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* Experience Section Starts */
+
+.exp-class .progress {
+  height: 10px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.progress-bar {
+  background-color: #ee8683 !important;
+}
+
+.exp-class label {
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* Services Section */
+
+.bg-sec {
+  background: #f8f9fa;
+}
+
+.card,
+.card-header {
+  background-color: #f8f9fa !important;
+}
+
+.card-header {
+  border: none;
+}
+
+.services-class .card-header {
+  font-size: 50px;
+}
+
+.service-border {
+  height: 2px;
+  width: 40px;
+  margin: 15px auto;
+  background: #e65f78;
+}
+
+/* Hire me Section */
+
+.r-btn {
+  padding: 5px 20px;
+  background-color: #ee8683 !important;
+  color: #fff !important;
+}
+
+/* Testimony Section */
+
+.testimony-class .test-item {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.testimony-class .test-item .test-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.testimony-class .test-item i {
+  color: grey;
+}
+
+.test-item p.test-name {
+  font-size: 11px;
+}
+
+/* Work Section */
+
+.work .card-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Contact Section */
+
+.contact .r-icon {
+  font-size: 50px;
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  height: 200px;
+  background-color: #333333;
+}
+
+footer .r-icon a {
+  font-size: 20px;
+  color: #848484;
+  padding: 10px;
+  border: 1px solid #848484;
+  border-radius: 50%;
+}
+
+footer .r-icon a:hover {
+  border: 1px solid #eee;
+  color: #eee;
+  transition: 0.5s all;
+}
+
+.text-muted {
+  color: #fff !important;
+}
+/* Preloader  */
+/* .preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 99998;
+} */
+
+/* .preloader::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background: #000;
+    transition: 1s;
+}
+
+.preloader::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background: #000;
+    transition: 1s;
+}
+
+.preloader.complete::before {
+    bottom: -50%;
+}
+
+.preloader.complete::after {
+    top: -50%;
+}
+
+.preloader.complete {
+    visibility: hidden;
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid rgba(255, 255, 255, 0.1);
+    border-top: 10px solid #ee8683;
+    animation: animate 1.5s infinite linear;
+    z-index: 99999;
+} */
+
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
